@@ -1,14 +1,19 @@
 import React from "react";
+import styled from "styled-components";
 
 import GlobalStyles from "./GlobalStyles";
 import pic from "../assets/flower3-1600.jpg";
+
+const Heading = styled.h1`
+  color: green;
+`;
 
 const Application = () => {
   return (
     <>
       <GlobalStyles />
       <div>
-        <h1>Hello from the Dubé React App Starter Template</h1>
+        <Heading>Hello from the Dubé React App Starter Template</Heading>
         <p>
           Donec sed odio dui. Morbi leo risus, porta ac consectetur ac,
           vestibulum at eros. Donec sed odio dui. Lorem ipsum dolor sit amet,
