@@ -7,5 +7,6 @@ export default createGlobalStyle`
 
   body, html {
     margin: 0;
+    font-family: 'Noto Sans', sans-serif;
   }
 `;
