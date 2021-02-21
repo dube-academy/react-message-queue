@@ -10,11 +10,16 @@
   "author": "Lukas Gisder-Dubé",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/optimizer-htmlnano": "2.0.0-nightly.605",
+    "@parcel/packager-html": "2.0.0-nightly.605",
+    "@parcel/transformer-html": "2.0.0-nightly.605",
+    "@parcel/transformer-posthtml": "2.0.0-nightly.605",
     "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-is": "^17.0.1",
     "styled-components": "^5.2.1"
   }
 }
